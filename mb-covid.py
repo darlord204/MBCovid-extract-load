@@ -6,7 +6,6 @@ import json
 import datetime
 from datetime import datetime
 from influxdb import InfluxDBClient
-import datetime
 import time
 
 timestamp = datetime.datetime.utcnow().isoformat("T") + "Z"
